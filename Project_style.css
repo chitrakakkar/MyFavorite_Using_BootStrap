@@ -1,0 +1,70 @@
+*{
+    font-family: "Apple Braille";
+}
+
+
+.jumbotron {
+    background-color: antiquewhite;
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 25px;
+    padding-top: 0;
+    height: 300px;
+    color: black;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align: center;
+
+}
+
+body
+{
+    background: linear-gradient(ORANGE, GREY,ORANGE);
+
+
+}
+div.Container
+{
+    border-width:2px;
+    border-style:solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    color: black;
+    border-color:black ;
+    margin: 10px;
+    overflow:auto;
+}
+.code{
+    border-radius: 50px;
+}
+
+p{
+    font-size: large;
+}
+.tab-content
+{
+    font-size: large;
+}
+
+.span{
+    float: right;
+}
+.glyphicon
+{
+   font-size:20px;
+}
+.footer
+{
+
+    color: white;
+    float: right;
+
+
+}
+#footer-header{
+    background : linear-gradient(green, yellow);
+    text-align: center ;
+
+}
+
+

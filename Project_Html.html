@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>first Bootstrap program</title>
+    <!-- The viewport is the visible area of a page. Pages may be wider
+  than the screen or browser window; and pages are often longer than
+  the browser window. This tag sets the width of the page equal to the
+  width of the browser window. The height stays the same. -->
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+    <!-- Include Bootstrap. This downloads Bootstrap from a CDN. You can
+   also host Bootstrap on your server, but it's usually faster for the
+   user for their browser to fetch it from a CDN. -->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Project_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="Container">
+    <div class="span">
+        <a href="HTML.html"><span class="glyphicon glyphicon-home"></span></a>
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+        <span class="glyphicon glyphicon-search"></span>
+
+    </div>
+    <div class="jumbotron">
+        <h1>My favorite Project </h1>
+
+        <p>
+            This application uses Google vision API where you can analyze faces in a picture. This API gives the response back in a Json file which I am using to draw a polygon around the faces found and I have picked up few emotions from the response Json file like ‘JoyLikelyhood’,” SorrowLikelihood’, “SurpriseLikeHood’ and ‘AngerLikeHood’. To display these emotions, I have drawn a pie-chart which shows how happy you are and so on. There are chances where API is not able to detect any face due to very bad resolution or any other reason, I have a default image for that situation and a default chart so that it does not break the application.
+
+        </p>
+        <a href="https://github.com/chitrakakkar/Capstone_FinalProject2">Project-GitHub</a>
+
+    </div>
+    <div class="myPythonCodehere">
+        <h1>CODE</h1>
+        <p>Some Python Code</p>
+        <pre>
+  <code class="code">
+      while True:
+        number = int(input("Enter a number"))
+        if number > 1:
+            for i in range(2, number):
+                if (number % i) == 0:
+                    print(str(number) + "is a not prime number")
+                    break
+            else:
+                print(str(number) + " prime number")
+
+  </code>
+</pre>
+        <div class="myJavaCodehere">
+            <h1>CODE</h1>
+            <p>Some Java Code</p>
+            <pre>
+  <code class="code">
+      int temp;
+      boolean isPrime=true;
+      Scanner scan= new Scanner(System.in);
+      System.out.println("Enter a number for check:");
+      int num=scan.nextInt();
+      for(int i=2;i<=num/2;i++)
+        {
+          temp=num%i;
+          if(temp==0)
+          {
+            isPrime=false;
+             break;
+           }
+        }
+      if(isPrime)
+           System.out.println(num + " is Prime Number");
+      else
+           System.out.println(num + " is not Prime Number");
+
+  </code>
+</pre>
+       <div class="More-projects">
+
+
+        <P>Here are some more interesting projects that I have done. They use Python, APIs, Concurrency and Jquery. </P>
+
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#Postcard" aria-controls="Postcard" role="tab" data-toggle="tab">Postcards</a></li>
+            <li role="presentation"><a href="#python-GUI"  aria-controls="python-GUI" role="tab" data-toggle="tab">Python GUI</a></li>
+            <li role="presentation"><a href="#Unit-testings"  aria-controls="Unit-testings" role="tab" data-toggle="tab">Unit-Testings</a></li>
+
+        </ul>
+       </div>
+
+
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="Postcard"><p>I am a <a href="https://github.com/chitrakakkar/Capstone_PostcardMashup">postcard</a> with some images and text which you flip with a click with some background music</p></div>
+            <div role="tabpanel" class="tab-pane" id="python-GUI"><p>I am a<a href="https://github.com/chitrakakkar/Data.gov"> GUI</a> developed with Python</p> </div>
+            <div role="tabpanel" class="tab-pane" id="Unit-testings"><p>I can help you understand <a href="https://github.com/chitrakakkar/Lab3_UnitTesting_Coffee">unit-testing</a> in python</p></div>
+        </div>
+</div>
+    <div class="footer">
+        <table>
+            <th id="footer-header">Created by : Chitra Kakkar</th>
+        </table>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+.container-fluid{
+    background:linear-gradient(Red, maroon);
+}
+
+img{
+
+    background-size: contain;
+    border-radius: 8px;
+
+
+
+}
+.container{
+    
+
+}
+
+body{
+    background-image:url("Images/yellow-gold-textile-background.jpg" );
+
+}
+
+p{
+    font-size: large;
+    overflow: auto;
+
+}
+a{
+    color: navajowhite;
+    padding-left: 0;
+    float: left;
+}
+footer
+{
+
+    margin-left: 60px;
+    margin-right:60px;
+    text-align: center;
+
+}
+
